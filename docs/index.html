@@ -6,22 +6,31 @@
 .btn {
   background-color: #FBAB2C;
   border: none;
+  border-radius: 50px;
   color: white;
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
-  opacity: 0.6;
+  opacity: 1;
   transition: 0.3s;
 }
 
-.btn:hover {opacity: 1}
+.btn:hover {opacity: 0.7}
 </style>
+
+<script type="text/javascript">
+	function openNewTab(taburl) {
+		window.open(taburl, '_blank');
+	}
+
+</script>
 </head>
 
 <body>
-<p>AppDynamics Sales Process</p>
-<button class="btn">Prep Meeting</button> 
+<H1><center>AppDynamics Sales Process</center></H1>
+
+<button class="btn" onclick="openNewTab('https://wcall.github.io/sales_process_onboarding/')">Prep Meeting</button> 
 
 </body>
 </html>
