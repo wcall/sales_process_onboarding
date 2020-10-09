@@ -4,7 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .btn {
-  background-color: #FBAB2C;
   border: none;
   border-radius: 50px;
   color: white;
@@ -15,8 +14,11 @@
   opacity: 1;
   transition: 0.3s;
 }
+.btn1 {background-color: #FBAB2C}
+.btn2 {background-color: #02BCEC}
 
 .btn:hover {opacity: 0.7}
+
 </style>
 
 <script type="text/javascript">
@@ -28,9 +30,28 @@
 </head>
 
 <body>
-<H1><center>AppDynamics Sales Process</center></H1>
+<h1><center>AppDynamics Sales Process</center></h1>
 
-<button class="btn" onclick="openNewTab('https://wcall.github.io/sales_process_onboarding/')">Prep Meeting</button> 
+<table>
+	<tr>
+		<td></td>
+		<td><button class="btn btn1" onclick="openNewTab('https://wcall.github.io/sales_process_onboarding/')">Prep Meeting</button></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><button class="btn btn2" onclick="openNewTab('https://wcall.github.io/sales_process_onboarding/')">Discovery Call/Meeting</button></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>	
 
+</table>
 </body>
 </html>
